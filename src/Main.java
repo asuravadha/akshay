@@ -7,6 +7,6 @@ public class Main {
     System.out.println("a*b is "+(a*b));
     System.out.println("a/b is "+(a/b));
     System.out.println("a%b is "+(a%b));
-
+System.out.println((a/b*3/4));
     }
 }
