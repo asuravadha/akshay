@@ -27,6 +27,8 @@ public class Main {
         else{
             System.out.println("invalid operation");
         }
+        
+        System.out.println("end of arith operations example"); //just to print ending cycle
 
 
 
