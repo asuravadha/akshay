@@ -1,34 +1,64 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
-        int a,b;
-        String operation;
-        System.out.println("enter a,b values");
-        Scanner input=new Scanner(System.in);
-        a=input.nextInt();
-        b=input.nextInt();
-        System.out.println("choose any one of this (+,-,*,/,%) to perform operation");
-        operation=input.next();
-        if(operation.equals("+")){
-            System.out.println("a+b is "+(a+b));
+        //iterators or loops
+        for(int i=1;i<10;i++){
+            System.out.println(i);
         }
-         else if(operation.equals("-")){
-            System.out.println("a-b is "+(a-b));
+
+        int i=1;
+
+        while(i<10){
+            System.out.println(i);
+            i++;
         }
-        else if(operation.equals("*")){
-            System.out.println("a*b is "+(a*b));
+
+        for(int a=1;a<10;a++){
+            if(a%2==0){
+                continue;
+            }
+            System.out.println("hi i am eswar"+a);
         }
-        else if(operation.equals("/")){
-            System.out.println("a/b is "+(a/b));
-        }
-        else if(operation.equals("%")){
-            System.out.println("a%b is "+(a%b));
-        }
-        else{
-            System.out.println("invalid operation");
-        }
-        
-        System.out.println("end of arith operations example"); //just to print ending cycle
+
+
+
+
+
+
+//        int i=1;
+//        System.out.println(i++);   //1
+//        System.out.println(i--);    //2
+//        System.out.println(++i);   //2
+//        System.out.println(--i);   //1
+
+//        int a,b;
+//        String operation;
+//        System.out.println("enter a,b values");
+//        Scanner input=new Scanner(System.in);
+//        a=input.nextInt();
+//        b=input.nextInt();
+//        System.out.println("choose any one of this (+,-,*,/,%) to perform operation");
+//        operation=input.next();
+//        if(operation.equals("+")){
+//            System.out.println("a+b is "+(a+b));
+//        }
+//         else if(operation.equals("-")){
+//            System.out.println("a-b is "+(a-b));
+//        }
+//        else if(operation.equals("*")){
+//            System.out.println("a*b is "+(a*b));
+//        }
+//        else if(operation.equals("/")){
+//            System.out.println("a/b is "+(a/b));
+//        }
+//        else if(operation.equals("%")){
+//            System.out.println("a%b is "+(a%b));
+//        }
+//        else{
+//            System.out.println("invalid operation");
+//        }
+//
+//        System.out.println("end of arith operations example"); //just to print ending cycle
 
 
 
