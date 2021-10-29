@@ -2,23 +2,35 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         //iterators or loops
-        for(int i=1;i<10;i++){
-            System.out.println(i);
-        }
-
-        int i=1;
-
-        while(i<10){
-            System.out.println(i);
-            i++;
-        }
-
+//        for(int i=1;i<10;i++){
+//            System.out.println(i);
+//        }
+//
+//        int i=1;
+//
+//        while(i<10){
+//            System.out.println(i);
+//            i++;
+//        }
+//
+//        for(int a=1;a<10;a++){
+//            if(a%2==0){
+//                continue;
+//            }
+//            System.out.println("hi i am eswar"+a);
+//        }
         for(int a=1;a<10;a++){
-            if(a%2==0){
-                continue;
+            for(int b=1;b<a;b++){
+                if(b%2==0){
+                    System.out.print("* ");
+                }else{
+                    System.out.print(b+" ");
+                }
             }
-            System.out.println("hi i am eswar"+a);
+            System.out.println();
         }
+
+
 
 
 
