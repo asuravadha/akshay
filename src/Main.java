@@ -5,13 +5,20 @@ public class Main {
 //        for(int i=1;i<10;i++){
 //            System.out.println(i);
 //        }
-//
+
+
+
+
+
 //        int i=1;
 //
 //        while(i<10){
 //            System.out.println(i);
 //            i++;
 //        }
+
+
+
 //
 //        for(int a=1;a<10;a++){
 //            if(a%2==0){
@@ -19,16 +26,49 @@ public class Main {
 //            }
 //            System.out.println("hi i am eswar"+a);
 //        }
-        for(int a=1;a<10;a++){
-            for(int b=1;b<a;b++){
-                if(b%2==0){
-                    System.out.print("* ");
-                }else{
-                    System.out.print(b+" ");
-                }
-            }
-            System.out.println();
-        }
+
+
+
+//        for(int a=1;a<10;a++){
+//            for(int b=1;b<a;b++){
+//                if(b%2==0){
+//                    System.out.print("* ");
+//                }else{
+//                    System.out.print(b+" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+
+
+        //infinite loop
+//        int i=0;
+//        for(;;){
+//            i++;
+//            System.out.println("Eswar");
+//            if(i==50){
+//                break;
+//            }
+//
+//        }
+
+
+        //infinite while
+//        Scanner input=new Scanner(System.in);
+//        System.out.println("Enter height of traingle");
+//        int value=input.nextInt();
+//        int a=1;
+//        while(true){
+//            for(int b=1;b<=a;b++){
+//                System.out.print(b+" ");
+//            }
+//            System.out.println();
+//            if(a==value){
+//                break;
+//            }
+//            a++;
+//        }
 
 
 
